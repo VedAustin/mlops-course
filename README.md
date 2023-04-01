@@ -1,11 +1,11 @@
 # MLOps Course
 
-Learn how to combine machine learning with software engineering to build production-grade applications.
+Learn how to combine machine learning with software engineering to develop, deploy and maintain production ML applications.
 
 > MLOps concepts are interweaved and cannot be run in isolation, so be sure to complement the code in this repository with the detailed [MLOps lessons](https://madewithml.com/#mlops).
 
 <div align="left">
-    <a target="_blank" href="https://madewithml.com/"><img src="https://img.shields.io/badge/Subscribe-40K-brightgreen"></a>&nbsp;
+    <a target="_blank" href="https://madewithml.com/"><img src="https://img.shields.io/badge/Subscribe-30K-brightgreen"></a>&nbsp;
     <a target="_blank" href="https://github.com/GokuMohandas/Made-With-ML"><img src="https://img.shields.io/github/stars/GokuMohandas/Made-With-ML.svg?style=social&label=Star"></a>&nbsp;
     <a target="_blank" href="https://www.linkedin.com/in/goku"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
     <a target="_blank" href="https://twitter.com/GokuMohandas"><img src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social"></a>
@@ -95,13 +95,6 @@ Learn how to combine machine learning with software engineering to build product
 	</tbody>
 </table>
 
-### Interactive MLOps course
-While all the lessons above are **100% free**, it's hard to learn everything on your own. That's why we're offering an interactive course with the structure and community to actually complete and master these lessons.  More details &nbsp;👉&nbsp; [here](https://madewithml.com/#interactive-course).
-
-### Instructions
-
-We highly recommend going through the [lessons](https://madewithml.com/#mlops) one at a time and building the code base as we progress. For every concept, we focus on the fundamentals and then dive into the code, at which point we can refer to this repository as a guide.
-
 ### Virtual environment
 ```bash
 python3 -m venv venv
@@ -112,16 +105,16 @@ pre-commit install
 pre-commit autoupdate
 ```
 
-> If the commands above do not work, please refer to the [packaging](https://madewithml.com/courses/mlops/packaging/) lesson. We highly recommend using [Python version](https://madewithml.com/courses/mlops/packaging/#python) `3.7.13`.
+> If the commands above do not work, please refer to the [packaging](https://madewithml.com/courses/mlops/packaging/) lesson. We highly recommend using [Python version](https://madewithml.com/courses/mlops/packaging/#python) `3.9.1`.
 
 ### Directory
 ```bash
 tagifai/
-├── data.py       - data processing utilities
+├── data.py       - data processing components
 ├── evaluate.py   - evaluation components
 ├── main.py       - training/optimization operations
-├── predict.py    - inference utilities
-├── train.py      - training utilities
+├── predict.py    - inference components
+├── train.py      - training components
 └── utils.py      - supplementary utilities
 ```
 
